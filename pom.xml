@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.whitetip</groupId>
     <artifactId>pet-clinic-re</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic-re</name>
     <description>pet-clinic-re</description>
     <properties>
@@ -40,6 +40,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -50,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/e-sprit56/pet-clinic-re.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>pet-clinic-re-0.0.2</tag>
   </scm>
 
 </project>
