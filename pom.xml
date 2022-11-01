@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.whitetip</groupId>
     <artifactId>pet-clinic-re</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pet-clinic-re</name>
     <description>pet-clinic-re</description>
     <properties>
@@ -51,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/e-sprit56/pet-clinic-re.git</developerConnection>
-      <tag>pet-clinic-re-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
