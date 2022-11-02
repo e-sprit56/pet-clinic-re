@@ -2,10 +2,11 @@ package com.whitetip.petclinicre.services.map;
 
 import com.whitetip.petclinicre.model.Owner;
 import com.whitetip.petclinicre.services.CrudService;
+import com.whitetip.petclinicre.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
@@ -31,5 +32,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner save(Owner owner) {
         return super.save(owner.getId(), owner);
+    }
+
+    @Override
+    public Owner finByLastName(String lastName) {
+        return null;
     }
 }
