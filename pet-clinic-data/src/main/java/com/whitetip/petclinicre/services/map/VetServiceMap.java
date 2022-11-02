@@ -2,10 +2,11 @@ package com.whitetip.petclinicre.services.map;
 
 import com.whitetip.petclinicre.model.Vet;
 import com.whitetip.petclinicre.services.CrudService;
+import com.whitetip.petclinicre.services.VetService;
 
 import java.util.Set;
 
-public class VetServcieMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
